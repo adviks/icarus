@@ -1,0 +1,15 @@
+<div class="meta">
+<span><img  class="post-avatar" src="https://cdn.substack.com/image/fetch/w_90,h_90,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb2ab7e68-f0ac-4e62-86d3-1bf2491f18ee_500x500.png" alt="author image"></span>
+<span class="post-author">
+	{{ range .Param "authors" }}
+		{{ . }}
+	{{ end }}
+</span>
+
+
+{{ $dateTime := .PublishDate.Format "2006-01-02" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+
+<time class="post-date" datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+
+</div>
