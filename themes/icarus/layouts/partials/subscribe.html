@@ -1,0 +1,71 @@
+<script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+
+<form 
+    action="https://app.convertkit.com/forms/1647478/subscriptions"
+     method="post"
+>
+    <div class="subform">
+        <h3> Subscribe </h3>
+        <ul  data-element="errors" data-group="alert"></ul>
+        <div data-element="fields" data-stacked="false">
+            <!-- <div>
+                <input
+                    aria-label="Your first name"
+                    name="fields[first_name]"
+                    required=""
+                    placeholder="Your first name"
+                    type="text"
+                />
+            </div> -->
+            <div>
+                <input
+                    name="email_address"
+                    aria-label="Your email address"
+                    placeholder="Your email address"
+                    required=""
+                    type="email"
+                />
+            </div>
+            <button data-element="submit" class="sub-button">
+                <span>Subscribe</span>
+            </button>
+        </div>
+    </div>
+</form>
+<style>
+input{
+    border: 1px solid #999;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    box-shadow: none;
+}
+input:focus{
+border-radius: 0;
+border: 1px solid #666;
+outline: none;
+box-shadow: none;
+border-radius: 5px;
+}
+
+form{
+    text-align: center;
+}
+.sub-button{
+    background-color: #3700ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+
+}
+
+.subform{
+    background-color: rgb(217, 210, 252);
+    padding: 5% 10%;
+    border-radius: 5px;
+}
+</style>

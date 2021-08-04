@@ -2,16 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;700&display=swap');
 body{
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: calc(20px + (24 - 20) * ((100vw - 300px) / (1600 - 300)));
+    line-height: 1.2em;
+
 }
 
 .navbar{
     border-bottom: 1px solid #ddd;
 }
 
-p{
-    font-family: 'Crimson Pro';
-    font-weight: 22px;
+h1, h2, h3, h4, h5 {
+    font-family: 'Inter';
+    font-weight: 700;
 }
 
 .container{
@@ -23,6 +25,15 @@ p{
     text-decoration: none;
     font-weight: 700;
 }
+.post-title:hover{
+color: black;
+}
+
+.fimage-home{
+    height: 200px;
+    width: auto;
+}
+
 .post-avatar{
     height: 50px;
     width: 50px;
@@ -42,13 +53,15 @@ p{
 .post-summary{
     color: #222;
     font-family: 'Crimson Pro';
-    font-size: 22px;
-
 }
+.post-summary-home{
+    font-family: 'Inter';
+    font-size: 18px !important;
+    color: #666;
+}
+
 .post-content{
     font-family: 'Crimson Pro';
-    font-size: 22px;
-    margin-top: 40px;
 }
 
 .meta{
