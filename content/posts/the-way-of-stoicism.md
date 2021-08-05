@@ -1,6 +1,6 @@
 ---
 title: "The Way of Stoicism"
-author: "Asad Advik"
+authors: ["Asad Advik"]
 tags: [""]
 date: 2021-08-05T05:07:05+05:30
 ---

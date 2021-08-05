@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Icarus"
 theme = "icarus"
+summaryLength = 30
 
 [menu]
   [[menu.main]]

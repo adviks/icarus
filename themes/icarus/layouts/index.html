@@ -1,11 +1,11 @@
 {{ define "main" }}
 
 
-<h3>Latest Articles</h3>
+<h3 class="styleTitle">Latest Articles</h3>
 {{- range where .Site.RegularPages "Type" "posts" -}}
-<p>
+<p style="margin-bottom: 20px">
     <h4><a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-    <p class="post-summary-home">{{ .Summary }}</p>
+    <p class="post-summary">{{ .Summary }}</p>
 </p>
 
 {{ end }}

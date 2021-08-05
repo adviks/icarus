@@ -1,6 +1,6 @@
 ---
 title: "This Is Unfair World"
-author: "Asad Advik"
+authors: ["Asad Advik"]
 tags: [""]
 date: 2021-08-05T05:06:10+05:30
 ---
