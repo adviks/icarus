@@ -1,4 +1,5 @@
 ---
 title: "Posts"
+slug: "posts"
 ---
 
