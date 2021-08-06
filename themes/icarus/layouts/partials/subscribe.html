@@ -5,10 +5,10 @@
      method="post"
 >
     <div class="subform">
-        <h3> Subscribe to get latest articles in your inbox </h3>
+        <h3> Subscribe to get my latest articles by email</h3>
         <ul  data-element="errors" data-group="alert"></ul>
         <div data-element="fields" data-stacked="false">
-            <!-- <div>
+            
                 <input
                     aria-label="Your first name"
                     name="fields[first_name]"
@@ -16,8 +16,6 @@
                     placeholder="Your first name"
                     type="text"
                 />
-            </div> -->
-            <div>
                 <input
                     name="email_address"
                     aria-label="Your email address"
@@ -25,7 +23,6 @@
                     required=""
                     type="email"
                 />
-            </div>
             <button data-element="submit" class="sub-button">
                 <span>Subscribe</span>
             </button>
@@ -34,20 +31,23 @@
 </form>
 <style>
 input{
-    border: 1px solid #999;
+    border: 1px solid #ddd;
     color: black;
-    border-radius: 5px;
+    border-radius: 3.5px;
     padding: 10px;
     margin-bottom: 10px;
     width: 99%;
     box-shadow: none;
+    display: inline;
 }
 input:focus{
-border-radius: 0;
-border: 1px solid #666;
+border: 1px solid #ddd;
 outline: none;
-box-shadow: none;
-border-radius: 5px;
+border-radius: 3.5px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #bbb;
+  opacity: 1; /* Firefox */
 }
 
 form{
@@ -65,8 +65,10 @@ form{
 }
 
 .subform{
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     padding: 5% 2%;
     border-radius: 5px;
+    background: #f9fafb;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.11);
 }
 </style>

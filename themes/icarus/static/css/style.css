@@ -6,9 +6,9 @@ body{
 /* ******** */
 
 .navbar-brand{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 26px;
-    color: #d23669;
+    color: #d23669 !important;
 }
 
 .navbar-toggler{
