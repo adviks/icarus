@@ -20,7 +20,7 @@ body{
     font-size: 26px;
 }
 .logo-blue{
-    color: #603dc2;
+    color:linear-gradient(to right, #0961e5, #3758df, #4e4ed9, #5f42d1, #6e35c8);
 }
 .navbar-toggler{
     border: none !important;
