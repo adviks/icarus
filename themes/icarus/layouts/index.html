@@ -1,17 +1,15 @@
 {{ define "main" }}
 
-<p class="home-p"> <span class="playfair">Outwin</span> is the personal blog of Asad Advik. This blog is the intersection of <strong>philosophy, physics, and psychology.</strong> <p>
+<p class="home-p"> <strong>Outwin</strong> is the personal blog of Asad Advik. This blog is the intersection of <strong>philosophy, physics, and psychology.</strong> <p>
 
 
-<h3 class="styleTitle">Latest Articles</h3>
+<h3 style="color:#d23669;margin-bottom: 0;">Latest Articles</h3>
 {{- range where .Site.RegularPages "Type" "p" -}}
-<p style="margin-bottom: 20px">
-    <h4><a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-    <p class="post-summary">{{ .Summary }}</p>
-</p>
+    <h4><a class="post-title-list" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+    <!-- <p class="post-summary">{{ .Summary }}</p> -->
 
 {{ end }}
-
+<br>
 {{ partial "subscribe.html"}}
 
 {{ end }}
