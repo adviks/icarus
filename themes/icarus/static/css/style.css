@@ -74,13 +74,20 @@ h1, h2, h3, h4, h5 {
 color: black;
 }
 
-.post-title-list{
+.post-title-list > a{
     text-decoration: none;
     color: black;
     font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
-    margin-bottom: 0;
+    margin: 0;
+    font-weight: 400;
+    display: inline;
 }
-
+.post-title-list{
+    margin: 0;
+}
+.post-home{
+    margin-bottom: 10px;
+}
 
 .post-title-list:hover{
     color: black;
