@@ -1,5 +1,5 @@
 ---
-title: "The Way of Stoicism"
+title: "The Way of Stoicism in this Fake World of Enthusiastic Peope?"
 authors: ["Asad Advik"]
 tags: [""]
 date: 2021-08-05T05:07:05+05:30
