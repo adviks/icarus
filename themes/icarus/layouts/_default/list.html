@@ -4,12 +4,11 @@
 
 {{ range .Pages.ByPublishDate.Reverse }}
 
-<p>
-    <h4><a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-    <p class="post-summary">{{.Summary }}</p>
+<div class="post-list-wrapper">
+    <p style="margin-bottom: 0;"><a class="post-title-list"  href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+    <!-- <p class="post-summary">{{.Summary }}</p> -->
     <!-- <p class="post-summary">{{.Params.description}}</p> -->
-</p>
-
+</div>
 
 {{ end }}
 {{ end }}
