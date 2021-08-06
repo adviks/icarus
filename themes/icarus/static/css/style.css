@@ -160,3 +160,7 @@ body.dark-mode .post-author{
 body.dark-mode .post-title-list > a{
     color: white;
 }
+
+body.dark-mode a.nav-link{
+    color: #ddd !important;
+}
