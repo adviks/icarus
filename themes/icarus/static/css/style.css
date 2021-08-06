@@ -1,27 +1,16 @@
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
-
-
 body{
 }
 
 /* ********* */
 /* NAVBAR */
 /* ******** */
-.navbar{
-    /* border-bottom: 1px solid #ddd; */
-}
+
 .navbar-brand{
-    font-weight: 800;
+    font-weight: 700;
     font-size: 26px;
+    color: #d23669;
 }
-.logo-blue{
-    color:linear-gradient(to right, #0961e5, #3758df, #4e4ed9, #5f42d1, #6e35c8);
-}
+
 .navbar-toggler{
     border: none !important;
     outline: none;
