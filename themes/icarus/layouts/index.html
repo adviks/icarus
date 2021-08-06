@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<p class="home-p"> <strong>Outwin</strong> is the personal blog of Asad Advik. This blog is the intersection of <strong>philosophy, psychology, and my general point of view.</strong> <p>
+<p class="home-p"> Hey, I'm Asad Advik. Welcome to my blog. Let me tell you about the name "outwin" first. <p>
 
 
 <h2 style="color:#d23669;margin-bottom: 0;">Newest Articles</h2>
@@ -8,13 +8,13 @@
 <div class="post-home">
     <h4 class="post-title-list"><a  href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
     {{ $dateTime := .PublishDate.Format "2006-01-02" }}
-{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2" }}
 
 <time class="post-date" datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
     <!-- <p class="post-summary">{{ .Summary }}</p> -->
 </div>
 {{ end }}
 <br>
-{{ partial "subscribe.html"}}
+<!-- {{ partial "subscribe.html"}} -->
 
 {{ end }}
