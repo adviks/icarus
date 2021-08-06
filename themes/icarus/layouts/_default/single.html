@@ -5,4 +5,28 @@
 <br>
 {{ partial "subscribe.html"}}
 <br>
+<!-- COMMENTS -->
+<div class="comments">
+
+    <h3>Comments</h3>
+    {{ $comments_provider := trim (site.Params.comments.provider | lower) " " }}
+    <div id="cusdis_thread" data-host="https://cusdis.com"
+            data-app-id="341a22c8-7df2-4d76-b0a2-1cd16af71c63"
+            data-page-id="{{.UniqueID}}" 
+            data-page-url="{{ .Permalink }}"
+            data-page-title="{{ .Title }}">
+    </div>
+    <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+    
+    </div>
+    
+    <style>
+        .comments{
+            max-width: 760px;
+            margin: 10px auto;
+        }
+        
+    </style>
+
+<!-- COMMENTS ENDS -->
 {{ end }}
