@@ -6,7 +6,23 @@
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    {{ $title := print .Title  " — " .Site.Title  }}
-    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
-    <title>{{ $title }}</title>
+    {{ $paginator := .Paginate (where .Site.RegularPages ".Params.post" "!=" false) }}
+
+{{ if .IsHome }}
+	{{ if eq $paginator.PageNumber 1 }}
+		<title>{{ .Title }}</title>
+		<meta name="description" content="{{ .Site.Params.description }}" />
+	{{ else }}
+		<title>{{ .Title }} | Page {{ $paginator.PageNumber }}</title>
+		<meta name="description" content="This is page {{ $paginator.PageNumber }} of our content." />
+	{{ end }}
+{{ else }}
+	{{ if .Params.seoTitle }}
+		<title>{{ .Params.seoTitle }}</title>
+	{{ else }}
+		<title>{{ .Title }}</title>
+	{{ end }}
+	<meta name="description" content="{{ .Description }}" />
+{{ end}}
 </head>
+

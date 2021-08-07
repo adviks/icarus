@@ -3,3 +3,6 @@ languageCode = "en-us"
 title = "Outwin"
 theme = "icarus"
 summaryLength = 30
+
+[params]
+description = "Site stuff for being a good site with internet tubez."
