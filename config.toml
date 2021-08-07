@@ -6,3 +6,6 @@ summaryLength = 30
 description = "A blog by Asad Advik"
 
 googleAnalytics = "G-J16SFM05KT"
+
+[params]
+    addThis = "ra-610f138fe74fa831"
