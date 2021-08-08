@@ -1,4 +1,4 @@
-baseURL = "outw.in"
+baseURL = "https://outw.in"
 languageCode = "en-us"
 title = "Outwin"
 theme = "icarus"
