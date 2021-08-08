@@ -1,9 +1,5 @@
 ---
 title: Hello World
-authors:
-  - Asad Advik
-tags:
-  - hello, world
 date: 2021-08-05T00:07:42+05:30
 description: This post is about an affiar that I had when I was very old, now
   I'm about to be young, so let's hear it from me.
