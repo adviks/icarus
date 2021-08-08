@@ -1,17 +1,24 @@
 <head>
-    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=610f1a94ec7e08001251865e&product=inline-share-buttons" async="async"></script>
-    <meta charset="utf-8">
-    {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    {{ $title := print .Title  " — " .Site.Title  }}
-    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+  <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=610f1a94ec7e08001251865e&product=inline-share-buttons" async="async"></script>
+  
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     
-    <title>{{ $title }}</title>
-    {{ template "_internal/google_analytics.html" . }}
+    
+    
+  {{ $title := print .Title  " — " .Site.Title  }}
+  {{ if .IsHome }}{{ $title = .Site.Title}}{{ end }}
+  <title>{{ $title}} — {{ $.Site.Params.description }}</title>
+
+
+
+  {{ template "_internal/google_analytics.html" . }}
   {{ template "_internal/google_analytics_async.html" . }}
 </head>
 

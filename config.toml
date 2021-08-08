@@ -3,9 +3,10 @@ languageCode = "en-us"
 title = "Outwin"
 theme = "icarus"
 summaryLength = 30
-description = "A blog by Asad Advik"
 
 googleAnalytics = "G-J16SFM05KT"
 
 [params]
-    addThis = "ra-610f138fe74fa831"
+description = "A blog by Asad Advik"
+images = ['https://images.unsplash.com/photo-1586227740560-8cf2732c1531?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60']
+title = 'My cool site'
