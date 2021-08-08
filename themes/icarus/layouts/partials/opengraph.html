@@ -3,18 +3,13 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 
-{{- with $.Params.images -}}
-<meta property="og:image" content="{{ . | absURL }}" />
-{{- else -}}
-{{- $images := $.Resources.ByType "image" -}}
-{{- $featured := $images.GetMatch "*feature*" -}}
-{{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
-{{- with $featured -}}
-<meta property="og:image" content="{{ $featured.Permalink }}"/>
-{{- else -}}
-{{- with $.Site.Params.images }}<meta property="og:image" content="{{ index . 0 | absURL }}"/>{{ end -}}
-{{- end -}}
-{{- end -}}
+{{ if .Params.og_image }}
+    <meta property="og:image" content="https://outw.in{{ .Params.og_image | relURL }}"/>
+    <meta property="og:image:secure_url" content="{{ .Params.og_image | absURL }}"/>
+{{ else }}
+    <meta property="og:image" content="https://outw.in{{ .Site.Params.og_image | relURL }}"/>
+    <meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
+{{ end }}
 
 {{- if .IsPage }}
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
