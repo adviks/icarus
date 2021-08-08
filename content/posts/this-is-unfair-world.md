@@ -8,8 +8,8 @@ date: 2021-08-05T05:06:10+05:30
 description: In this post I delve into the working of a chaotic world. After
   reading this article, you'll feel comfortable about the chaos of this modern
   world.
-image: 
-  - https://images.unsplash.com/photo-1628263752769-58c5577af987?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
+images: 
+    - https://images.unsplash.com/photo-1628263752769-58c5577af987?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
 ---
 One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
 
