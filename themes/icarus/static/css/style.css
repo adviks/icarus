@@ -28,6 +28,7 @@
     padding: 0;
 }
 
+
 .navbar-toggler{
     border: none !important;
     outline: none;
@@ -36,8 +37,6 @@
     outline:  none !important;
     color: transparent;
 }
-
-
 
 
 
@@ -165,3 +164,5 @@ body.dark-mode a.nav-link{
     color: #ddd !important;
 }
 
+
+/* ******************************************************************* */
