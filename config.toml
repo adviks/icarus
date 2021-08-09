@@ -1,12 +1,12 @@
-baseURL = "https://outw.in"
+baseURL = "https://asadadvik.com"
 languageCode = "en-us"
-title = "Outwin"
+title = "Asad Advik"
 theme = "icarus"
 summaryLength = 30
 
 googleAnalytics = "G-J16SFM05KT"
 
 [params]
-description = "A blog by Asad Advik"
-images = ['https://cdn.pixabay.com/photo/2017/06/05/11/01/airport-2373727__340.jpg']
-title = 'Outwin'
+description = "Blog, Book Notes, Newsletter and More"
+# images = ['https://cdn.pixabay.com/photo/2017/06/05/11/01/airport-2373727__340.jpg']
+title = 'Asad Advik'
