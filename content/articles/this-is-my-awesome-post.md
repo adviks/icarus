@@ -1,5 +1,6 @@
 ---
 title: This is my awesome post
+slug: awesome
 date: 2021-08-10T15:03:39.300Z
 description: This post if my manifesto of ideas that I have been holding into me for years.
 ---
