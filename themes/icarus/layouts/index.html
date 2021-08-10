@@ -4,7 +4,7 @@
 
 
 <h2 style="color:#d23669;margin-bottom: 0;">Newest Articles</h2>
-{{- range first 4 (where .Site.RegularPages "Type" "posts") -}}
+{{- range first 4 (where .Site.RegularPages "Section" "articles") -}}
 <div class="post-home">
     <h4 class="post-title-list"><a  href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
     {{ $dateTime := .PublishDate.Format "2006-01-02" }}
