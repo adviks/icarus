@@ -11,3 +11,6 @@ googleAnalytics = "G-J16SFM05KT"
 description = "Blog, Book Notes, Newsletter and More"
 # images = ['https://cdn.pixabay.com/photo/2017/06/05/11/01/airport-2373727__340.jpg']
 title = 'Asad Advik'
+
+[permalinks]
+articles = '/:slug/'
