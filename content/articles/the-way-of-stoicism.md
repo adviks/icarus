@@ -1,9 +1,10 @@
 ---
-title: "The Way of Stoicism in this Fake World of Enthusiastic Peope?"
+title: The Way of Stoicism in this Fake World of Enthusiastic Peope?
 date: 2021-08-05T05:07:05+05:30
-description: In this post, I talk about things that are essential for human existence. 
+description: In this post, I talk about things that are essential for human existence.
 images:
-    - https://images.unsplash.com/photo-1623944889288-cd147dbb517c?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
+  - https://images.unsplash.com/photo-1623944889288-cd147dbb517c?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
+slug: stoicism
 ---
 
 One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.
