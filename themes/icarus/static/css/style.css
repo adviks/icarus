@@ -5,8 +5,11 @@
     background: #FFBCD9
   }
 .home-p{
-    font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1600 - 300)));
 }
+
+
+
 .playfair{
     font-family: 'Playfair Display';
     text-decoration: underline;
@@ -66,7 +69,7 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
     font-weight: 700;
     line-height: 1.2em;
-    font-size: calc(28px + (34 - 28) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(28px + (36 - 28) * ((100vw - 300px) / (1600 - 300)));
 
 }
 .post-title:hover{
@@ -78,9 +81,10 @@ color: black;
     color: black;
     font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
     margin: 0;
-    font-weight: 400;
+    font-weight: 500;
     display: inline;
 }
+
 .post-title-list{
     margin: 0;
 }
@@ -113,19 +117,23 @@ color: black;
     font-weight: 300;
 }
 .post-date{
-    color: #999;
+    color: #767676;
     font-size: 14px;
     font-weight: 300;
 }
 .post-summary{
     font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1600 - 300)));
+    color: #555;
+}
+.post-description{
+    font-size: calc(18px + (19 - 18) * ((100vw - 300px) / (1600 - 300)));
     color: #767676;
 }
 
 .post-content{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #1a1a1a;
-    font-size: calc(18px + (22 - 18) * ((100vw - 320px) / (1680 - 320)));
+    font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1680 - 320)));
 
 }
 
@@ -133,6 +141,27 @@ color: black;
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.post-title-archive{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.2em;
+    font-size: calc(24px + (28 - 24) * ((100vw - 300px) / (1600 - 300)));
+}
+.post-title-archive:hover{
+    color: black;
+}
+
+
+.post-card-archive{
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+.post-card-archive:hover{
+}
+
+
 
 
 

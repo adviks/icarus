@@ -4,9 +4,9 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'post'
-    label: 'Post'
-    folder: 'content/posts'
+  - name: 'article'
+    label: 'Article'
+    folder: 'content/articles'
     create: true
     slug: '{{slug}}'
     editor:

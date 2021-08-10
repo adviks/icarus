@@ -3,7 +3,9 @@
   
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
-
+  <link rel="icon" 
+  type="image/png" 
+  href="https://i.postimg.cc/SKJ7tpF0/profile-pic-1-80x80.png">
 
   
   <meta charset="utf-8">
@@ -11,9 +13,6 @@
   <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-  
- 
 
   {{ $title := print .Title  " — " .Site.Title  }}
   {{ if .IsHome }}{{ $title = .Site.Title}}{{ end }}

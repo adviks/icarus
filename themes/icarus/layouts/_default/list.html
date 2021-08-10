@@ -2,13 +2,64 @@
 
 <h1 style="color:#d23669">Posts</h1>
 
-{{ range .Pages.ByPublishDate.Reverse }}
 
-<div>
-    <p><a class="post-title"  href="{{ .RelPermalink }}">{{ .Title }}</a></p>
-    <p class="post-summary">{{.Summary }}</p>
-    <!-- <p class="post-summary">{{.Params.description}}</p> -->
+{{ $paginator := .Paginate (where .Pages "Section" "articles") }}
+{{ range $paginator.Pages }}
+   <div class="post-card-archive">
+    <p style="margin:0"><a class="post-title-archive"  href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+    {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+
+<time class="post-date-archive" datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+    <!-- <p class="post-summary">{{ .Summary }}</p> -->
+    <p class="post-summary">{{.Params.description}}</p>
 </div>
-
 {{ end }}
+{{ template "_internal/pagination.html" . }}
+
+
+<style>
+    .pagination {
+    display: flex;
+    list-style: none;
+    border-radius: .25rem;
+    margin: 20px 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .75rem 1rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #d23669;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.page-link:hover{
+    color: #d23669;
+}
+
+.homepage .page-link,
+.listing .page-link {
+    background-color: #fff;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #d23669;
+    border-color: #d23669;
+}
+</style>
 {{ end }}

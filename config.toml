@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Asad Advik"
 theme = "icarus"
 summaryLength = 30
+paginate = 5
 
 googleAnalytics = "G-J16SFM05KT"
 
