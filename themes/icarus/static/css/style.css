@@ -144,7 +144,9 @@ color: black;
     font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1680 - 320)));
 
 }
-
+.post-content>a {
+    border-bottom: 1px solid #d23669 !important;
+}
 
 .meta{
     margin-top: 15px;
