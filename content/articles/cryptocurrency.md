@@ -1,5 +1,5 @@
 ---
-title: Cryptocurrency 🪙
+title: Cryptocurrency 💸
 slug: cryptocurrency
 date: 2021-08-10T17:37:27.743Z
 description: Everything you need to know about cryptocurrencies— from working to investing
