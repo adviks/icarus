@@ -12,7 +12,3 @@ So here is my email address:
 *(You can click on the email above to send me a mail)*
 
 I'll be waiting for your mail. See you 👋
-
-> This is for testing purposes only.
->
->
