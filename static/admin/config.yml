@@ -4,7 +4,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'article'
+  - name: 'articles'
     label: 'Article'
     folder: 'content/articles'
     create: true
