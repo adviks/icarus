@@ -74,6 +74,11 @@ blockquote {
 /* NAVBAR */
 /* ******** */
 
+.navbar{
+    padding: 10px 2%;
+    border-bottom: 1px solid #ddd;
+}
+
 .navbar-brand{
     font-weight: 700;
     font-size: 28px;
