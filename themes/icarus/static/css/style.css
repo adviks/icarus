@@ -51,12 +51,7 @@ blockquote {
 
 .navbar-brand{
     font-weight: 700;
-    font-style: italic;
     font-size: 28px;
-    /* color: #d23669 !important; */
-    font-family: "Playfair Display";
-    text-decoration:underline;
-    text-decoration-color: #d23669;
     padding: 0;
 }
 
