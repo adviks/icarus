@@ -16,7 +16,7 @@ collections:
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - {label: "Topic", name: "topic", widget: "select", options: ["Philosophy", "Finance", "SelfHelp"]
+      - { label: "Topic", name: "topic", widget: "select", options: ["Philosophy", "Finance", "SelfHelp"]
       - { label: "Featured Image", name: "featuredImage", widget: "image", choose_url: true, required: false}
       - { label: 'Body', name: 'body', widget: 'markdown' }
     
