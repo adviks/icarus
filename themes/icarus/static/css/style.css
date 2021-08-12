@@ -2,7 +2,7 @@
 
 ::selection {
     color: #000;
-    background: #FFBCD9
+    background: #FDFFB4;
   }
 
 a {
@@ -36,13 +36,13 @@ a:hover{
 
 blockquote {
     border-left: 2px solid #ddd;
-    margin: 1.5em 10px;
+    margin: 1.5em 0px;
     padding: .5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   blockquote:before {
-    color: #d23669;
+    color: #007aff;
     content: open-quote;
     font-size: 4em;
     line-height: .1em;
@@ -77,6 +77,9 @@ blockquote {
 .navbar{
     padding: 10px 2%;
     border-bottom: 1px solid #ddd;
+}
+.navbar-nav {
+    margin-left: auto;
 }
 
 .navbar-brand{

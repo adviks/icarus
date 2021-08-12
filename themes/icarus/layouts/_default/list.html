@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<h1 style="color:#d23669">Articles</h1>
+<h1 style="color:#007aff">Articles</h1>
 
 
 {{ $paginator := .Paginate (where .Pages "Section" "articles") }}
@@ -34,12 +34,12 @@
     padding: .75rem 1rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: #d23669;
+    color: #007aff;
     background-color: #fff;
     border: 1px solid #dee2e6;
 }
 .page-link:hover{
-    color: #d23669;
+    color: #007aff;
 }
 
 .homepage .page-link,
@@ -58,8 +58,8 @@
 .page-item.active .page-link {
     z-index: 1;
     color: #fff;
-    background-color: #d23669;
-    border-color: #d23669;
+    background-color: #007aff;
+    border-color: #007aff;
 }
 </style>
 {{ end }}

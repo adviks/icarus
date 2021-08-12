@@ -2,6 +2,7 @@
 title: The Way of Stoicism in this Fake World of Enthusiastic Peope?
 date: 2021-08-05T05:07:05+05:30
 description: In this post, I talk about things that are essential for human existence.
+topic: Philosophy
 images:
   - https://images.unsplash.com/photo-1623944889288-cd147dbb517c?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
 slug: stoicism
