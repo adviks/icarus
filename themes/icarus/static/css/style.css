@@ -33,6 +33,10 @@ blockquote {
     display: inline;
   }
 
+.featured-image{
+    width: 100%;
+}
+
 .home-p{
     font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1600 - 300)));
 }
