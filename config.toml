@@ -9,8 +9,11 @@ googleAnalytics = "G-J16SFM05KT"
 
 [params]
 description = "Blog, Book Notes, Newsletter and More"
-# images = ['https://cdn.pixabay.com/photo/2017/06/05/11/01/airport-2373727__340.jpg']
+images = ['https://cdn.pixabay.com/photo/2017/06/05/11/01/airport-2373727__340.jpg']
 title = 'Asad Advik'
 
 [permalinks]
 articles = '/:slug/'
+
+[social]
+twitter = "asadadvik"

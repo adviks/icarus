@@ -1,8 +1,49 @@
 <head>
   <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=610f1a94ec7e08001251865e&product=inline-share-buttons" async="async"></script>
 
-  {{ partial "opengraph.html"}}
-  {{ template "_internal/twitter_cards.html" . }}
+<!-- OPEN GRAPH -->
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+
+{{- with $.Params.featuredImage -}}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{- else -}}
+{{- with $.Site.Params.images }}<meta property="og:image" content="{{ index . 0 | absURL }}"/>{{ end -}}
+{{- end -}}
+
+{{- if .IsPage }}
+{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+<meta property="article:section" content="{{ .Section }}" />
+{{ with .PublishDate }}<meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
+{{ with .Lastmod }}<meta property="article:modified_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
+{{- end -}}
+{{- with .Params.locale }}<meta property="og:locale" content="{{ . }}" />{{ end }}
+{{- with .Site.Params.title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
+
+  
+<!-- TWITTER CARD -->
+{{- with $.Params.featuredImage -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
+{{- else -}}
+{{- with $.Site.Params.images -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
+{{ else -}}
+<meta name="twitter:card" content="summary"/>
+{{- end -}}
+{{- end }}
+
+<meta name="twitter:title" content="{{ .Title }}"/>
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
+{{ with .Site.Social.twitter -}}
+<meta name="twitter:site" content="@{{ . }}"/>
+{{ end -}}
+
+
+<!-- FAVICON -->
   <link rel="icon" 
   type="image/png" 
   href="https://i.postimg.cc/SKJ7tpF0/profile-pic-1-80x80.png">
