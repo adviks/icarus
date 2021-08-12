@@ -13,6 +13,26 @@ a:hover{
     color: black;
 }
 
+.topic{
+    text-transform: uppercase;
+    color: #007aff;
+    font-weight: 500;
+    font-size:13px;
+}
+#bull{
+    color: #858585;
+    margin:auto 1%;
+}
+.readingTime{
+    color: #858585;
+    font-size:13px;
+}
+.fa-clock{
+    width: 14px;
+    height: 14px;
+    color:#858585;
+    padding-bottom: 4px;
+}
 
 blockquote {
     border-left: 2px solid #ddd;
