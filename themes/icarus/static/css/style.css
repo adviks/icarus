@@ -81,6 +81,10 @@ blockquote {
 .navbar-nav {
     margin-left: auto;
 }
+.dark-toggle{
+    margin-left: auto;
+    padding-left: auto;
+}
 
 .navbar-brand{
     font-weight: 700;
