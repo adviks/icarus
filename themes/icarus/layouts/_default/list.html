@@ -1,7 +1,23 @@
 {{ define "main" }}
-
 <h1 style="color:#007aff">Articles</h1>
 
+{{ $paginator := .Paginate (where .Pages "Section" "articles") }}
+{{ range $paginator.Pages }}
+<div class="card mb-3">
+    <img src="{{.Params.featuredImage}}" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title"><a class="post-title-archive"  href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+      <p class="card-text">    <span class="post-summary">{{.Params.description}}</span>
+    </p>
+    {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+
+      <p class="card-text"><small class="text-muted"><time class="post-date-archive" datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+      </small></p>
+    </div>
+  </div>
+  {{ end }}
+  {{ template "_internal/pagination.html" . }}
 
 {{ $paginator := .Paginate (where .Pages "Section" "articles") }}
 {{ range $paginator.Pages }}

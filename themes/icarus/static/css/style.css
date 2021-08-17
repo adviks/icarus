@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 ::selection {
     color: #000;
     background: #FDFFB4;
@@ -85,9 +85,10 @@ blockquote {
     font-weight: 700;
     font-size: 28px;
     padding: 0;
+    font-family: 'Inter';
 }
 .blue{
-    color: #007aff;
+    color: #ccc;
 }
 
 
@@ -218,8 +219,11 @@ color: black;
 
 
 .post-card-archive{
-    border-bottom: 1px solid #ccc;
-    padding: 20px 0;
+    padding: 5px;
+    /* background: red; */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.05);
 }
 
 
