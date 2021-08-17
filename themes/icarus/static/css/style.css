@@ -64,12 +64,6 @@ blockquote {
 
 
 
-.playfair{
-    font-family: 'Playfair Display';
-    text-decoration: underline;
-    text-decoration-color:#d23669;
-}
-
 /* ********* */
 /* NAVBAR */
 /* ******** */
@@ -91,6 +85,9 @@ blockquote {
     font-weight: 700;
     font-size: 28px;
     padding: 0;
+}
+.blue{
+    color: #007aff;
 }
 
 
