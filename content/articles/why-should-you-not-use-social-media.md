@@ -4,6 +4,7 @@ slug: social-media
 date: 2021-08-20T20:36:07.664Z
 description: "My views on social media "
 topic: SelfHelp
+featuredImage: https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80
 ---
 As some of you might have noticed, I keep activating and deactivating my Instagram. I'm not a fan of social media. I try to stay away from it as much as possible. Social media is bad in every way possible. I know it has some positives but the negatives far outweigh the positives.
 
