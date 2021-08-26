@@ -160,10 +160,6 @@ color: black;
     margin: 0;
 }
 
-.fimage-home{
-    height: 200px;
-    width: auto;
-}
 
 .post-avatar{
     height: 50px;
@@ -213,6 +209,8 @@ color: black;
     font-weight: 700;
     line-height: 1.2em;
     font-size: calc(24px + (28 - 24) * ((100vw - 300px) / (1600 - 300)));
+    display: block;
+
 }
 .post-title-archive:hover{
     color: black;
@@ -220,8 +218,23 @@ color: black;
 
 
 .post-card-archive{
-    border-bottom: 1px solid #eee;
-    padding: 20px 0;
+    padding:0;
+    background: #fff;
+    margin: 10px 0;
+    border-radius: 5px;
+    /* border: 1px solid #f0f0f0; */
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.08);
+
+}
+
+.featuredImage-archive{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.lower{
+    padding: 5px;
 }
 
 input{
