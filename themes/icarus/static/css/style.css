@@ -4,6 +4,9 @@ body{
     font-family: 'Inter', sans-serif;
 
 }
+h1, h2, h3{
+    letter-spacing: -2px;
+}
 
 /* ::selection {
     color: #000;
@@ -184,8 +187,9 @@ color: black;
 }
 .post-description{
     font-size: calc(18px + (19 - 18) * ((100vw - 300px) / (1600 - 300)));
-    color: #333;
+    color: #6e6e73;
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 .post-content{
