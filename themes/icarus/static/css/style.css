@@ -1,59 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 body{
-    font-family: 'SF Pro Display';
+    font-family: 'Inter', sans-serif;
 
 }
-@font-face {
-    font-family: 'SF Pro Display';
-    src: url('SFProDisplay-BoldItalic.woff2') format('woff2');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SF Pro Display';
-    src: url('SFProDisplay-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SF Pro Display';
-    src: url('SFProDisplay-SemiboldItalic.woff2') format('woff2');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SF Pro Display';
-    src: url('SFProDisplay-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SF Pro Display';
-    src: url('SFProDisplay-RegularItalic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SF Pro Display';
-    src: url('SFProDisplay-Semibold.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-
 
 /* ::selection {
     color: #000;
@@ -175,7 +125,8 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
     font-weight: 700;
     line-height: 1.1em;
-    font-size: calc(28px + (44 - 28) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(32px + (44 - 32) * ((100vw - 300px) / (1600 - 300)));
+    letter-spacing: -2px;
 
 }
 .post-title:hover{
@@ -234,6 +185,7 @@ color: black;
 .post-description{
     font-size: calc(18px + (19 - 18) * ((100vw - 300px) / (1600 - 300)));
     color: #333;
+    font-weight: 600;
 }
 
 .post-content{
