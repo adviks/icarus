@@ -185,7 +185,7 @@ color: black;
 .post-description{
     font-size: calc(18px + (19 - 18) * ((100vw - 300px) / (1600 - 300)));
     color: #6e6e73;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0;
 }
 
