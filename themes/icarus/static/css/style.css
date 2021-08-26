@@ -4,9 +4,7 @@ body{
     font-family: 'Inter', sans-serif;
 
 }
-h1, h2, h3{
-    letter-spacing: -2px;
-}
+
 
 /* ::selection {
     color: #000;
@@ -15,7 +13,7 @@ h1, h2, h3{
 
 a {
     text-decoration: none;
-    color:#007aff;
+    color:#0066ff;
 }
 a:hover{
     color: black;
@@ -23,7 +21,7 @@ a:hover{
 
 .topic{
     text-transform: uppercase;
-    color: #007aff;
+    color: #0066ff;
     font-weight: 500;
     font-size:13px;
 }
@@ -115,7 +113,7 @@ blockquote {
 
 h1, h2, h3, h4, h5 {
     font-weight: 700;
-    line-height: 1.25em;
+    line-height: 1.1em;
 }
 
 .container{
@@ -128,8 +126,7 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
     font-weight: 700;
     line-height: 1.1em;
-    font-size: calc(38px + (48 - 38) * ((100vw - 300px) / (1600 - 300)));
-    letter-spacing: -2px;
+    font-size: calc(34px + (44 - 34) * ((100vw - 300px) / (1600 - 300)));
 
 }
 .post-title:hover{
@@ -223,37 +220,3 @@ color: black;
     border-bottom: 1px solid #eee;
     padding: 20px 0;
 }
-
-
-
-
-
-
-
-body.dark-mode, 
-body.dark-mode main * {
-    background: #282c35;
-    color: #f5f5f5;
-}
-body.dark-mode .navbar-brand{
-        color: white!important;
-    }
-body.dark-mode .post-title {
-    color: white;
-}
-body.dark-mode .post-content{
-    color: #eee;
-}
-body.dark-mode .post-author{
-    color: #eee;
-}
-body.dark-mode .post-title-list > a{
-    color: white;
-}
-
-body.dark-mode a.nav-link{
-    color: #ddd !important;
-}
-
-
-/* ******************************************************************* */
