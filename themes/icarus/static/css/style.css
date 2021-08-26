@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
     font-weight: 700;
     line-height: 1.1em;
-    font-size: calc(34px + (44 - 34) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(38px + (48 - 38) * ((100vw - 300px) / (1600 - 300)));
     letter-spacing: -2px;
 
 }
