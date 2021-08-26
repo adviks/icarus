@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
     line-height: 1.1em;
     font-size: calc(32px + (44 - 32) * ((100vw - 300px) / (1600 - 300)));
-    letter-spacing: -2px;
+    letter-spacing: -2.px;
 
 }
 .post-title:hover{
