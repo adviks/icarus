@@ -1,7 +1,7 @@
 ---
 title: This Post is Using the Font Crimson
 slug: crimson
-type: Spectral
+type: Georgia
 date: 2021-09-11T11:50:29.075Z
 description: A post using font crimson
 topic: SelfHelp
@@ -18,6 +18,7 @@ Whether you are saving for an investment, a vacation, or just some extra spendin
 I thought, why not choose 3 side hustles and put them to the test! I gave each one 30 days in order to give them something to measure up to and to my utter surprise, they *each* earned in the $1000 ballpark!
 
 Without further ado, here are three side hustles tested out by yours truly, listed from most profitable to least profitable.
+
 
 ## **Upselling Ikea Items From the ‘As Is’ Section**
 
