@@ -6,8 +6,6 @@ date: 2021-09-11T11:50:29.075Z
 description: A post using font crimson
 topic: SelfHelp
 ---
-<!--StartFragment-->
-
 Selling friendship bracelets on Etsy is not my cup of tea. I don’t want to spend my limited time on this earth on proposed side hustles you commonly find out there unless there is a relatively large payoff.
 
 I have encountered and read about hundreds of ways to earn an extra buck thanks to good ‘ol Google. However, I found that a lot of them needed either:
@@ -21,7 +19,7 @@ I thought, why not choose 3 side hustles and put them to the test! I gave each o
 
 Without further ado, here are three side hustles tested out by yours truly, listed from most profitable to least profitable.
 
-# **Upselling Ikea Items From the ‘As Is’ Section**
+## **Upselling Ikea Items From the ‘As Is’ Section**
 
 This is by far my favorite of the three side hustles. I would actually describe this as more of a life hack than a side hustle and can see myself doing it …forever.
 
@@ -66,7 +64,7 @@ Let me break those numbers down for you — I spent $140 at the Ikea ‘As Is’
 
 I don’t think I need to explain further why you should start doing this yesterday.
 
-# Declutter Your Home & Sell Items Online
+## Declutter Your Home & Sell Items Online
 
 I like this option because as per the criteria I listed above, it had zero upfront costs and also required minimal time. Additionally, my house got a much needed de-clutter.
 
@@ -91,7 +89,7 @@ Two take-aways if you are going to do this: first, study the comparables and pri
 
 This ranked number two because although it proved to be affordable and timely, it is more of a one time thing.
 
-# Furniture Flipping
+## Furniture Flipping
 
 This side hustle does take a little bit of elbow grease, but if you enjoy a fixer upper, this will be right up your alley.
 
@@ -117,7 +115,7 @@ I also sold a kitchen table that I put a fresh coat of paint on for $200 and an 
 
 In total, over 30 days these little fixer upper projects earned me $795. Not bad!
 
-# Takeaways
+## Takeaways
 
 So, drumroll…how much did I make from taking this leap of faith and thinking a little outside of the box?
 
@@ -127,4 +125,3 @@ Initially, I was doubtful about all three of these side hustles but admittedly, 
 
 *Lesson learned, don’t knock it ’til you try it.*
 
-<!--EndFragment-->

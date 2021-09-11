@@ -190,12 +190,14 @@ color: black;
     margin-bottom: 0;
 }
 
+
 .post-content{
     color: #1d1d1f;
     font-size: calc(22px + (24 - 22) * ((100vw - 320px) / (1680 - 320)));
     line-height: 1.5em;
 
 }
+
 .post-content>a {
     border-bottom: 1px solid #d23669 !important;
 }

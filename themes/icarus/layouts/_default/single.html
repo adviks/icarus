@@ -8,10 +8,21 @@
 <br>
 
     
-    <span style="font-family:'{{.Params.type}}'" class="post-content">{{ .Content }}</span>
+    <div class="post-content">{{ .Content }}</div>
 <!-- <div class="sharethis-inline-share-buttons"></div> -->
 <br> 
 {{ partial "subscribe.html"}}
 <br>
+<style>
+    .post-content > p {
+        font-family:"{{.Params.type}}";
+        color: #1d1d1f;
+        font-size: calc(22px + (24 - 22) * ((100vw - 320px) / (1680 - 320)));
+        line-height: 1.5em;
+    }
 
+    .post-content ul > li, ol > li {
+        font-family:"{{.Params.type}}";
+    }
+</style>
 {{ end }}
