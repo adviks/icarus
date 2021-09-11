@@ -4,8 +4,7 @@
 <p class="post-description">{{.Params.description}}</p>
 {{ partial "metadata.html" . }}
 <img class="featuredImage" src="{{.Params.featuredImage}}">
-
-    <div class="post-content">{{ .Content }}</div>
+ <div class="post-content">{{ .Content }}</div>
 <!-- <div class="sharethis-inline-share-buttons"></div> -->
 <br> 
 {{ partial "subscribe.html"}}
@@ -15,7 +14,7 @@
         font-family:"{{.Params.type}}";
         font-size: calc(18px + (22 - 18) * ((100vw - 320px) / (1680 - 320)));
         line-height: 1.5em;
-        word-spacing: 0.1em;
+        word-spacing: 0.2em;
     }
 
     .post-content ul > li, ol > li {
@@ -25,6 +24,7 @@
     font-weight: 600;
     line-height: 1.1em;
     font-size: calc(24px + (28 - 24) * ((100vw - 320px) / (1680 - 320)));
+    margin-top: 4%;
     }
 </style>
 {{ end }}

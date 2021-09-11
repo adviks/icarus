@@ -1,5 +1,5 @@
 ---
-title: Typography
+title: Typography is the King
 slug: typo
 type: Bespoke Serif
 date: 2021-09-11T11:50:29.075Z

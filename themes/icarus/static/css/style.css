@@ -63,6 +63,7 @@ blockquote {
 .featuredImage{
     width: 100%;
     border-radius: 3px;
+    margin-bottom: 2%;
 }
 
 .home-p{
@@ -127,7 +128,7 @@ h1, h2, h3, h4, h5 {
 .post-title{
     color: black;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 740;
     line-height: 1.1em;
     font-size: calc(34px + (44 - 34) * ((100vw - 300px) / (1600 - 300)));
     letter-spacing: -.01em;
