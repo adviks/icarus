@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
     font-family: 'Inter', sans-serif;
@@ -190,8 +192,9 @@ color: black;
 
 .post-content{
     color: #1d1d1f;
-    font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1680 - 320)));
+    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1680 - 320)));
     line-height: 1.5em;
+    font-family: 'Spectral', serif;
 
 }
 .post-content>a {
