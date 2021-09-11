@@ -194,7 +194,6 @@ color: black;
     color: #1d1d1f;
     font-size: calc(22px + (24 - 22) * ((100vw - 320px) / (1680 - 320)));
     line-height: 1.5em;
-    font-family: 'Spectral', serif;
 
 }
 .post-content>a {
