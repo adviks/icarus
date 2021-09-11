@@ -14,10 +14,10 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Slug', name: 'slug', widget: 'string' }
-      - { label: "Type", name: "type", widget: "select", options: ["Crimson Pro", "Spectral", "Georgia", "Inter", "Helvetica"]}
+      - { label: "Type", name: "type", widget: "select", options: ["Inter", "Bespoke Serif"]}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: "Topic", name: "topic", widget: "select", options: ["Philosophy", "Finance", "SelfHelp"]}
+      - { label: "Topic", name: "topic", widget: "select", options: ["Philosophy", "Finance", "SelfHelp"], required: false}
       - { label: "Featured Image", name: "featuredImage", widget: "image", choose_url: true, required: false}
       - { label: 'Body', name: 'body', widget: 'markdown' }
     

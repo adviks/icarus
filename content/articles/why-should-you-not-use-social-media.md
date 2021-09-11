@@ -1,13 +1,13 @@
 ---
 title: Why should you not use social media?
 slug: social-media
-type: Sentient
+type: Bespoke Serif
 date: 2021-08-20T20:36:07.664Z
 description: "My views on social media "
 topic: SelfHelp
 featuredImage: https://i.postimg.cc/d0Z1bKDR/dummy-760x350-000000-68dd89.jpg
 ---
-As some of you might have noticed, I keep activating and deactivating my Instagram. I'm not a fan of social media. I try to stay away from it as much as possible. Social media is bad in every way possible. I know it has some positives but the negatives far outweigh the positives.
+As some of you might have noticed, I keep activating and deactivating my Instagram. I'm not a fan of social media. I try to stay away from it as much as possible. Social media is bad in every way possible. I know it has some positives but the negatives far **outweigh** the *positives*.
 
 Just today, I logged in to my Instagram and I couldn't bear the bullshit that is being served there for even five minutes, I had to log out of it instantly. This happens when you stay away from social media for a while, you get used to the peace that social media less world provide. 
 
