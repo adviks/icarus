@@ -1,8 +1,8 @@
 ---
 title: Why should you not use social media?
 slug: social-media
+type: Helvetica
 date: 2021-08-20T20:36:07.664Z
-type: Crimson Pro
 description: "My views on social media "
 topic: SelfHelp
 featuredImage: https://i.postimg.cc/d0Z1bKDR/dummy-760x350-000000-68dd89.jpg
