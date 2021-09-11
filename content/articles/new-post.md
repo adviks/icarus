@@ -1,5 +1,6 @@
 ---
 title: "This is Another Awesome Post"
+type: Inter
 date: 2021-08-26T23:09:25+05:30
 description: This is another post about another idea in my head
 slug: "post"
