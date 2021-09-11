@@ -1,13 +1,7 @@
 ---
-<<<<<<< HEAD
-title: This Post is Using the Font Crimson
-slug: crimson
-type: Spectral
-=======
 title: Typography
 slug: typo
 type: Georgia
->>>>>>> 4720ab9ca4c04481fabbb5fb578ccf6abae7ebd9
 date: 2021-09-11T11:50:29.075Z
 description: This post is to test the typography capabilities of my website
 topic: SelfHelp
