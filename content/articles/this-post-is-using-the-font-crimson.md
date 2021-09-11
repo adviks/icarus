@@ -1,7 +1,7 @@
 ---
 title: This Post is Using the Font Crimson
 slug: crimson
-type: Georgia
+type: Spectral
 date: 2021-09-11T11:50:29.075Z
 description: A post using font crimson
 topic: SelfHelp
