@@ -1,7 +1,7 @@
 ---
 title: Typography
 slug: typo
-type: Spectral
+type: Bespoke Serif
 date: 2021-09-11T11:50:29.075Z
 description: This post is to test the typography capabilities of my website
 topic: SelfHelp
