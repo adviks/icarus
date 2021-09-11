@@ -1,7 +1,7 @@
 ---
 title: Why should you not use social media?
 slug: social-media
-type: Inter
+type: Bespoke Serif
 date: 2021-08-20T20:36:07.664Z
 description: "My views on social media "
 topic: SelfHelp
