@@ -10,3 +10,7 @@ featuredImage: https://images.unsplash.com/photo-1631132498035-3d793ada5db6?ixid
 There are many things in my life that are confusing to me. I have been trying to understand different aspects of myself but I have been failing miserably.
 
 There have been times when I was on the brink of a mental breakdown and the next moment I was brimming with happiness. I'm strange in many ways. Strangeness has become my identity.
+
+I have gone through various phases in my life, and the biggest thing that I have realized is that struggle in life is good. Struggle makes you a better person. It makes you an experienced person who can take better decisions. 
+
+Not everything that I have experienced was full of struggle.
