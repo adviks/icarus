@@ -5,8 +5,8 @@
   method="post"
 >
   <div class="subform">
-    <h2 style="font-size: 32px; font-weight: 700">
-      <span class="gradient">Subscribe</span> to get my latest articles by email
+    <h2 style="font-size: 32px; font-weight: 700" class="gradient-s">
+      Subscribe to get my latest articles by email
     </h2>
     <ul data-element="errors" data-group="alert"></ul>
     <div data-element="fields" data-stacked="false">
@@ -33,6 +33,11 @@
 </form>
 
 <style>
+  .gradient-s {
+    background: linear-gradient(60deg, #fe605d, #8f6fda);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .spam {
     color: #999;
     margin-top: 20px;

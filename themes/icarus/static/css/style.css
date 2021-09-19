@@ -69,9 +69,21 @@ blockquote p {
 }
 
 .gradient {
-  background: linear-gradient(to right, #0066ff 0%, #f3004e 50%);
+  background: linear-gradient(60deg, #fe605d, #efc550, #8f6fda, #fc7658);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 5s ease infinite alternate;
+  background-size: 300%, 300%;
+  color: transparent;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
 }
 
 /* ********* */
