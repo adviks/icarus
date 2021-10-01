@@ -72,7 +72,7 @@ blockquote p {
   background: linear-gradient(60deg, #fe605d, #efc550, #8f6fda, #fc7658);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 5s ease infinite alternate;
+  -webkit-animation: hue 10s ease infinite alternate;
   background-size: 300%, 300%;
   color: transparent;
 }
