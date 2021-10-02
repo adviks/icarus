@@ -194,9 +194,9 @@ h5 {
   color: #6e6e73;
 }
 .post-description {
-  font-size: calc(20px + (22 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(19px + (20 - 19) * ((100vw - 300px) / (1600 - 300)));
   color: #6e6e73;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 0;
 }
 
