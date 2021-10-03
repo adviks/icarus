@@ -194,7 +194,7 @@ h5 {
   color: #6e6e73;
 }
 .post-description {
-  font-size: calc(19px + (20 - 19) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1600 - 300)));
   color: #6e6e73;
   font-weight: 400;
   margin-bottom: 0;
@@ -202,7 +202,7 @@ h5 {
 
 .post-content {
   color: #1d1d1f;
-  font-size: calc(19px + (22 - 19) * ((100vw - 320px) / (1680 - 320)));
+  font-size: calc(19px + (21 - 19) * ((100vw - 320px) / (1680 - 320)));
   line-height: 1.5em;
 }
 
