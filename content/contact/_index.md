@@ -7,7 +7,7 @@ The best way to reach out to me is via email. I love email. In this world of ins
 
 So here is my email address:
 
-**`<h3 href="mailto:hey@asadadvik.com" class="gradient">hey@asadadvik.com</h3>`**
+### **[hey@asadadvik.com](mailto:hey@asadadvik.com)**
 
 *(You can click on the email above to send me a mail)*
 
