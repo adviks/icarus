@@ -17,9 +17,8 @@ a {
 }
 a:hover {
   color: black;
-  text-decoration-color: #0066ff;
+  text-decoration-color: #5522fa;
   text-decoration-thickness: 0.1em;
-  background: linear-gradient(to right,#7700a2 0,#ec8580 100%);
 }
 
 .topic {
