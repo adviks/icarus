@@ -16,6 +16,7 @@ a {
   color: black;
 }
 a:hover {
+  color: black;
   text-decoration-color: linear-gradient(60deg, #fe605d, #efc550, #8f6fda, #fc7658);
   text-decoration-thickness: 0.1em;
 }
