@@ -1,7 +1,7 @@
 ---
 title: Hello, World.
 slug: hello
-type: Inter
+type: Bespoke Serif
 date: 2021-10-08T09:54:32.423Z
 description: For the testing purposes
 ---
