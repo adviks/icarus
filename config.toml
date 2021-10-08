@@ -4,6 +4,7 @@ title = "Asad Advik"
 theme = "icarus"
 summaryLength = 30
 paginate = 5
+enableEmoji = true
 
 googleAnalytics = "G-J16SFM05KT"
 
