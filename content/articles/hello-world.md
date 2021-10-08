@@ -26,4 +26,4 @@ This is the start of a paragraph text. I'm going to write something fun here, bu
 
 This is a paragraph switch to spice things up, now I'm going to use a **bold text for a while**, then I'll switch it over to the *italics, I will keep on using it until I reach a point where I can't use it no* more. Now, I guess, it's time to insert a [link that's going to escape](#) me out of this website. 
 
-I also want to test some emojis, that's why I'm going to use some emojis for the fun. :smile
+I also want to test some emojis, that's why I'm going to use some emojis for the fun. :smile:
