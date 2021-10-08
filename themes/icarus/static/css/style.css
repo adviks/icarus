@@ -12,6 +12,7 @@ body {
 
 a {
   text-decoration: underline;
+  text-decoration-thickness: 0.1em;
   color: black;
 }
 a:hover {
