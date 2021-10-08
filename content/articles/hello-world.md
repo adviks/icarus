@@ -13,17 +13,13 @@ This is the **bold** text.
 
 This is the *italics*.
 
-
-
 # This is a Heading 1
 
 ## This is a heading 2
 
 ### This is a Heading 3
 
-
-
-Heading 1
+# Heading 1
 
 This is the start of a paragraph text. I'm going to write something fun here, but I see no way of making an argument, or even to come up with things to say. I'm typing blindly not focusing on what am I saying.
 
