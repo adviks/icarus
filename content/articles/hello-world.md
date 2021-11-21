@@ -1,7 +1,7 @@
 ---
 title: Hello, World.
 slug: hello
-draft: false
+draft: true
 type: Helvetica
 date: 2021-10-08T09:54:32.423Z
 description: For the testing purposes
