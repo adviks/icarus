@@ -2,7 +2,7 @@
 @import url("https://api.fontshare.com/css?f[]=bespoke-serif@400,401&f[]=sentient@400,401&display=swap");
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 /* ::selection {
