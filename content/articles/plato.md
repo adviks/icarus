@@ -1,7 +1,7 @@
 ---
 title: Plato
 slug: plato
-draft: true
+draft: false
 type: Spectral
 date: 2021-10-25T18:51:38.103Z
 description: Philosophy of Plato
