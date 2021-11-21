@@ -2,7 +2,7 @@
 title: Plato
 slug: plato
 draft: false
-type: Helvetica
+type: Georgia
 date: 2021-10-25T18:51:38.103Z
 description: Philosophy of Plato
 ---
