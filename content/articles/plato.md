@@ -2,13 +2,11 @@
 title: Plato
 slug: plato
 draft: true
-type: Spectral
+type: Bespoke Serif
 date: 2021-10-25T18:51:38.103Z
 description: Philosophy of Plato
 ---
 # Plato
-
-![Shape1](RackMultipart20211025-4-xhqw0d_html_1e122d95a8e3ed61.gif)
 
 The philosophy of Plato is best known as the theory of ideas or theory of forms. It is the metaphysics of Plato. According to it, what is truly real is not the object we encounter in sensory experience, but rather forms or ideas which can be grasped only intellectually. Hence, according to Plato, over and above the world of sense perceptions, there is the transcendent world of ideas or forms. By idea or form, he meant the essence of a perceptual object.
 
