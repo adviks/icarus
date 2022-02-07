@@ -101,7 +101,7 @@ blockquote p {
 }
 .navbar-nav {
   margin-left: auto;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 .dark-toggle {
@@ -112,7 +112,7 @@ blockquote p {
 
 .navbar-brand {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 22px;
   padding: 0;
 }
 .blue {
