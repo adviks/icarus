@@ -185,21 +185,21 @@ h5 {
   margin-right: 10px;
 }
 .post-author {
-  font-size: 16px;
+  font-size: 14px;
   color: #222;
   font-weight: 500;
 }
 .post-date {
   color: #6e6e73;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
 }
 .post-summary {
-  font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
   color: #6e6e73;
 }
 .post-description {
-  font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
   color: #6e6e73;
   font-weight: 400;
   margin-bottom: 0;
