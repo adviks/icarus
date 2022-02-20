@@ -208,7 +208,7 @@ h5 {
 
 .post-content {
   color: #333;
-  font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1680 - 320)));
+  font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1680 - 320)));
   line-height: 1.5em;
 }
 
